@@ -1,7 +1,7 @@
 function Battleships() {
-
+    this.gameInProgress = false
 }
 
 Battleships.prototype.startGame = function() {
-    return true;
+    this.gameInProgress = !this.gameInProgress
 }
