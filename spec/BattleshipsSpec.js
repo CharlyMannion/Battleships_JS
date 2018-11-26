@@ -6,7 +6,7 @@ describe("Battleships", function() {
 
     describe("A function to initiate a game of Battleships", function() {
         it("will set the game in progress to true", function() {
-            battleships.startGame();
+            battleships.toggleGamePlay();
             expect(battleships.gameInProgress).toEqual(true);
         })
     })
